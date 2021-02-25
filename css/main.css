@@ -70,7 +70,7 @@ figure {
   top: 0px;
   height: 100%;
 }
-.nav-header {
+#nav-header {
   position: fixed;
   top: 0px;
   display: flex;
