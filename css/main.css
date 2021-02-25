@@ -203,6 +203,11 @@ figure {
   .nav-content li:hover {
     width: 93%;
   }
+  .nav-link {
+    width: 100%;
+    max-width: 249px;
+    display: block;
+  }
   #main-doc {
     margin: 0px 20px 10px 240px;
   }

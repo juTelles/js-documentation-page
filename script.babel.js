@@ -7,7 +7,7 @@ const navItens = document.querySelectorAll('.nav-item');
 function start() {
   window.addEventListener('resize', sideNavSize);
   sidebarButton.addEventListener('click', fullPageNav);
-  navItens.forEach((navLink) => navLink.addEventListener('click', fullPageNav));
+  navItens.forEach((navItem) => navItem.addEventListener('click', fullPageNav));
 }
 
 const fullPageNav = () => {
